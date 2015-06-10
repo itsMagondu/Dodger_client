@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/home_background2"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Enter username"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvHeader"
+        android:layout_below="@+id/tvHeader"
+        android:layout_marginTop="14dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etUsername"
+        android:layout_below="@+id/etUsername"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="Login" />
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="254dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Are you new to Traffic Dodger? Please sign up"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Sign Up" />
+
+    <Button
+        android:id="@+id/bView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="View" />
+
+</LinearLayout>
